@@ -1,0 +1,72 @@
+@font-face{
+	font-family: "gotham";
+	src: url('../fonts/Gotham-Bold.ttf');
+}
+.main_bg{
+	width: 100%;
+	height: 795px;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	position: relative;/** co doi tuong nam tren tam anh **/
+}
+.top_menu{
+	display: inline-block; /** bo cuc noi dung se duoc hien thi nhu the nao **/
+	margin-top: 49px;
+	line-height: 30px;
+	text-decoration: none;
+	list-style-type: none;
+}
+.top_menu > li {
+	float: left;
+	margin-right: 76px;
+}
+.top_menu li a {
+	font-family: "gotham";
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	display: block;
+	text-decoration: none;
+}
+.top_menu > .logo {
+	margin-top: -12px;
+}
+.description h1 {
+	display: inline-block;
+	font-size: 36px;
+    font-family: "gotham";
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-top: 210px;
+}
+.description p {
+	display: inline-block;
+	margin-top: 0px;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #FFF;
+}
+.description button{
+	border-radius: 3px;
+	width: 125px;
+	height: 37px;
+	background-color: rgb(22,160,133);
+	border-style: none;
+	font-size: 10px;
+	color: white;
+	text-transform: uppercase;
+	background-image: url(../images/btnx.png);
+}
+.social-icons{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.social-icons > img{
+    margin-right:5px;
+}

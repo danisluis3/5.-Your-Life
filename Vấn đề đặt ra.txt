@@ -1,0 +1,3 @@
+﻿Vấn đề 1: Background vừa màn hình
+=> tùy thuộc vào độ phân giải màn hình, dùng photoshop và setting ở chế độ create smart object. Dùng công cụ
+Drop tool để resize kích thước nhé.
