@@ -62,11 +62,10 @@
 	background-image: url(../images/btnx.png);
 }
 .social-icons{
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    top: 330px;
     width: 100%;
 }
-
 .social-icons > img{
     margin-right:5px;
 }
